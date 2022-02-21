@@ -1,6 +1,7 @@
 import { getAll } from "../api/products"
 import Footer from "../components/footer"
 import Header from "../components/header"
+import sidebarProduct from "../components/sidebarProduct"
 
 const Product = {
     async render() {
@@ -17,12 +18,7 @@ const Product = {
                         <h4 class="category-item-title">
                             Thương hiệu
                         </h4>
-                        <ul>
-                            <li class="category-item-link"><a href="">Nike</a></li>
-                            <li class="category-item-link"><a href="">Jordan</a></li>
-                            <li class="category-item-link"><a href="">Adiddas</a></li>
-                            <li class="category-item-link"><a href="">MLB</a></li>
-                        </ul>    
+                        ${await sidebarProduct.render()}
                     </div>
                 </div>
                 <!-- end category -->

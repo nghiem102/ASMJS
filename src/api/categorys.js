@@ -16,3 +16,8 @@ export const add = (category) => {
     const url = `/categoryProducts`;
     return instance.post(url, category);
 }
+
+export const getByCategory = (id) => {
+    const url = `categoryProducts/${id}?_embed=products`;
+    return instance.get(url)
+}

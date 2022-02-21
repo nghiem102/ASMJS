@@ -84,19 +84,19 @@
   "categoryProducts": [
     {
       "id": 1,
-      "name": "nike"
+      "name": "Nike"
     },
     {
       "id": 2,
-      "name": "jordan"
+      "name": "Jordan"
     },
     {
       "id": 3,
-      "name": "adiddas"
+      "name": "Adiddas"
     },
     {
       "id": 4,
-      "name": "mlb"
+      "name": "Mlb"
     }
   ]
 }

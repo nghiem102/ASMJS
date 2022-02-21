@@ -23,7 +23,7 @@ const sidebarDashboard = {
             <!-- SIDEBAR MENU -->
             <ul class="sidebar-menu">
                 <li>
-                    <a href="" class="active">
+                    <a href="/#/dashboard" class="active">
                         <i class='bx bx-home'></i>
                         <span>dashboard</span>
                     </a>
@@ -35,7 +35,7 @@ const sidebarDashboard = {
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/category">
                         <i class='bx bx-chart'></i>
                         <span>danh mục sản phẩm</span>
                     </a>
