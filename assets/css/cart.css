@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Nội dung giỏ hàng ---------- */
+.title_cart{
+    margin-top: 3%;
+    font-size: 2.4rem;
+    padding-bottom: 60px;
+}
+.box-content_cart{
+    padding-top: 3.5%;
+}
+.box-content_cart{
+    margin-bottom: 50px;
+    padding: 48px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+/* Ảnh sản phẩm */
+
+.cart_image img{
+    width: 133px;
+    height: 111px;
+}
+/* tên sản phẩm */
+.cart_name p{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
+/* Giá sản phẩm */
+.cart_price p {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.content__item-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.content__active {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    align-items: center;
+}
+/* Số lượng */
+.quantity{
+    display: flex;
+    align-items: center;
+}
+.quantity .number input{
+    width: 66px;
+    height: 66px;
+    font-size: 1.6rem;
+    border: 0.5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 22px;
+}
+.cart_quantity {
+    padding-top: 25px;
+    width: 66px;
+    height: 66px;
+    font-size: 1.6rem;
+    border: 0.5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 22px;
+}
+.quantity button{
+    border: none;
+    font-size: 2.4rem;
+}
+.quantity button:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+/* button đặt hàng */
+
+.button_order button{
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+}
+.button_order button:hover{
+    background-color: rgb(247, 127, 127);
+    color: black;
+}
+/* Thùng rác */
+
+.trash a{
+    color: black;
+    font-size: 30px;
+}
+.trash a:hover{
+    color: red;
+}

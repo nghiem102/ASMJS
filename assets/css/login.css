@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+/* ---------- Phần nhập thông tin ---------- */
+
+.box_info{
+    width: 600px;
+    margin: auto;
+    margin-top: 6%;
+    padding-bottom: 120px;
+}
+.box_info h3 {
+    font-size: 3.2rem;
+    padding-bottom: 24px;
+}
+.box_info .text_register {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    padding-bottom: 18px;
+}
+.box_info .text_register a:hover{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.form_info h6 {
+    font-size: 1.8rem;
+    padding-bottom: 4px;
+}
+.form_email{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    padding-left: 14px;
+}
+.form_password{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    padding-left: 14px;
+}
+.box_password{
+    margin-top: 20px;
+}
+
+/* CSS quên mật khẩu */
+.box-forgot_password a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding-top: 24px;
+}
+.box-forgot_password a:hover{
+    text-decoration: underline;
+    color: rgb(209, 209, 209);
+}
+/* CSS đăng ký */
+.box_register a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding-top: 18px;
+}
+
+.box_register a:hover{
+    text-decoration: underline;
+    color: rgb(209, 209, 209);
+}
+.box_button{
+    margin-top: 20px;
+}
+.box_button button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    transition: 0.5s;
+}
+.box_button button:hover{
+    background-color: rgb(238, 127, 127);
+    color: white;
+    transition: 0.5s;
+}
+/* Đăng nhập bằng google */
+.box_other{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.box_other p {
+    font-size: 1.6rem;
+    padding-bottom: 12px;
+}
+.other_login i{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50%;
+}
+.other_login i:hover{
+    background-color: white;
+    border: 1px solid rgb(148, 148, 148);
+    color: black;
+}

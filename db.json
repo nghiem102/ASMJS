@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "createdAt": "2022-01-10T07:26:52.549Z",
+      "name": "Jordan Delata 2",
+      "img": "./assets/css/img/giày 2.png",
+      "price": "3200000",
+      "desc": "Air Jordan là một thương hiệu giày bóng rổ, quần áo thể thao, giản dị và phong cách của Mỹ do Nike sản xuất . Được thành lập tại Chicago , Air Jordan được tạo ra cho Hall of Fame, cựu cầu thủ bóng rổ Michael Jordan trong thời gian thi đấu cho Chicago Bulls .",
+      "id": "2",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "createdAt": "2022-01-10T07:26:52.549Z",
+      "name": "Nike Wobler",
+      "img": "./assets/css/img/giày 3.png",
+      "price": "3200000",
+      "desc": "Air Jordan là một thương hiệu giày bóng rổ, quần áo thể thao, giản dị và phong cách của Mỹ do Nike sản xuất . Được thành lập tại Chicago , Air Jordan được tạo ra cho Hall of Fame, cựu cầu thủ bóng rổ Michael Jordan trong thời gian thi đấu cho Chicago Bulls .",
+      "id": "3",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "createdAt": "2022-01-10T07:26:52.549Z",
+      "name": "Suede Classic",
+      "img": "./assets/css/img/giày 4.png",
+      "price": "3200000",
+      "desc": "Air Jordan là một thương hiệu giày bóng rổ, quần áo thể thao, giản dị và phong cách của Mỹ do Nike sản xuất . Được thành lập tại Chicago , Air Jordan được tạo ra cho Hall of Fame, cựu cầu thủ bóng rổ Michael Jordan trong thời gian thi đấu cho Chicago Bulls .",
+      "id": "4",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "createdAt": "2022-01-10T07:26:52.549Z",
+      "name": "RS-X-INTL Game",
+      "img": "./assets/css/img/giày 5.png",
+      "price": "3200000",
+      "desc": "Air Jordan là một thương hiệu giày bóng rổ, quần áo thể thao, giản dị và phong cách của Mỹ do Nike sản xuất . Được thành lập tại Chicago , Air Jordan được tạo ra cho Hall of Fame, cựu cầu thủ bóng rổ Michael Jordan trong thời gian thi đấu cho Chicago Bulls .",
+      "id": "5",
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "ledinhnghiem102@gmail.com",
+      "password": "$2a$10$8tH5Qu7TWLcCIWEMDs3HlOvQxV7qvnayf99F8UJmwnIL.s9R.C/ce",
+      "username": "nghiem",
+      "id": 1,
+      "permission": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$CbIHUBbCpO1DgQgdc8NsNugZYwbV08pd7BMRxG3r.e3iXLTq9f4pi",
+      "username": "admin",
+      "permission": 1,
+      "id": 2
+    }
+  ]
+}

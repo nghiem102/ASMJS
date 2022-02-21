@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+.detail {
+    padding-bottom: 118px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.5);
+}
+
+.detail__main {
+    background-color: var(--backgr-color);
+}
+
+.main-text {
+    padding-top: 97px;
+    padding-left: 48px;
+}
+.text-name {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    padding-bottom: 25px;
+}
+.text-price {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.main-img {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.main-img img {
+    width: 65%;
+}
+
+.detail__content {
+    padding-left: 60px;
+    padding-top: 32px;
+}
+
+.content-title {
+    font-size: 1.6rem;
+    padding-bottom: 18px;
+}
+.info-text {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    opacity: 80%;
+    padding-bottom: 80px;
+}
+.content-info {
+    border-bottom: 1px solid rgba(133, 133, 133,0.25);
+}
+
+.content-choose {
+    padding-top: 32px;
+    padding-bottom: 92px;
+}
+
+.choose-title {
+    font-size: 1.6rem;
+    padding-bottom: 18px;
+}
+
+.choose-btn button {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(133, 133, 133,0.25);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.choose-btn button:hover {
+    background-color: var(--backgr-color);
+    cursor: pointer;
+}
+
+.content-add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+}
+.quantity i {
+    border: none;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.quantity i:hover {
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+.number input {
+    width: 48px;
+    height: 48px;
+    margin: 0 16px;
+    border: 1px solid rgba(133, 133, 133,0.25);
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.add button {
+    border: none;
+    background-color: var(--primary-color);
+    height: 48px;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    padding: 0 28px;
+}
+.add button:hover {
+    background-color: rgb(240, 90, 90);
+    cursor: pointer;
+}
+
+.comment {
+    margin-top: 70px;
+    background-color: var(--backgr-color);
+    margin-bottom: 120px;
+}
+
+.comment-title {
+    padding: 40px;
+    font-size: 3.6rem;
+}
+.comment-item {
+    padding: 0 72px 102px 72px;
+}
+.item-avatar img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+.comment-item-input {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+
+#comment {
+    height: 71px;
+    width: 720px;
+    padding-left: 22px;
+    font-size: 2.4rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    color: rgba(0, 0, 0,0.2);
+    margin-right: 18px;
+}
+#btn-submit {
+    width: 129px;
+    height: 71px;
+    font-size: 2.4rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    color: rgba(0, 0, 0,0.5);
+}
+#btn-submit:hover {
+    background-color: rgb(202, 199, 199);
+    cursor: pointer;
+}
+
+.comment-output {
+    display: flex;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+}
+
+.comment-content {
+    background-color: white;
+    padding-left: 10px;
+    width: 870px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+}
+.comment-user {
+    font-size: 2.4rem;
+    padding-top: 14px;
+    padding-bottom: 18px;
+}
+.comment-text {
+    font-size:1.6rem ;
+    padding-bottom: 20px;
+}
