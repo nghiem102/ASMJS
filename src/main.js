@@ -7,6 +7,7 @@ import Cart from "./pages/cart";
 import Detail from "./pages/Detail";
 import HomePage from "./pages/HomePage";
 import Product from "./pages/Product";
+import productCategory from "./pages/productCategory";
 import Signin from "./pages/Signin";
 import Signup from "./pages/signup";
 
@@ -61,6 +62,9 @@ router.on({
   },
   "/category": () => {
     print(Category)
+  },
+  "/productCategory/:id": ( { data} ) => {
+    print(productCategory,data.id)
   }
 });
 
