@@ -13,7 +13,8 @@
         "40",
         "41",
         "42"
-      ]
+      ],
+      "categoryProductId": 2
     },
     {
       "createdAt": "2022-01-10T07:26:52.549Z",
@@ -28,7 +29,8 @@
         "40",
         "41",
         "42"
-      ]
+      ],
+      "categoryProductId": 1
     },
     {
       "createdAt": "2022-01-10T07:26:52.549Z",
@@ -43,7 +45,8 @@
         "40",
         "41",
         "42"
-      ]
+      ],
+      "categoryProductId": 3
     },
     {
       "createdAt": "2022-01-10T07:26:52.549Z",
@@ -58,7 +61,8 @@
         "40",
         "41",
         "42"
-      ]
+      ],
+      "categoryProductId": 4
     }
   ],
   "users": [
@@ -75,6 +79,24 @@
       "username": "admin",
       "permission": 1,
       "id": 2
+    }
+  ],
+  "categoryProducts": [
+    {
+      "id": 1,
+      "name": "nike"
+    },
+    {
+      "id": 2,
+      "name": "jordan"
+    },
+    {
+      "id": 3,
+      "name": "adiddas"
+    },
+    {
+      "id": 4,
+      "name": "mlb"
     }
   ]
 }

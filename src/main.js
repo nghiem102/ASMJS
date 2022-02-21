@@ -1,6 +1,7 @@
 import Navigo from "navigo";
 import toastr from "toastr";
 import "toastr/build/toastr.min.css"
+import Category from "./admin/category";
 import Dashboard from "./admin/Dashboard";
 import Cart from "./pages/cart";
 import Detail from "./pages/Detail";
@@ -57,6 +58,9 @@ router.on({
   },
   "/dashboard": () => {
     print(Dashboard)
+  },
+  "/category": () => {
+    print(Category)
   }
 });
 

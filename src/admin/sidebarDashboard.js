@@ -29,15 +29,15 @@ const sidebarDashboard = {
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="">
                         <i class='bx bx-shopping-bag'></i>
                         <span>thêm sản phẩm</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="">
                         <i class='bx bx-chart'></i>
-                        <span>analytic</span>
+                        <span>danh mục sản phẩm</span>
                     </a>
                 </li>
                 
