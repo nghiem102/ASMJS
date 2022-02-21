@@ -8,6 +8,7 @@ import Detail from "./pages/Detail";
 import HomePage from "./pages/HomePage";
 import Product from "./pages/Product";
 import productCategory from "./pages/productCategory";
+import renderSearch from "./pages/renderSearch";
 import Signin from "./pages/Signin";
 import Signup from "./pages/signup";
 
@@ -65,6 +66,10 @@ router.on({
   },
   "/productCategory/:id": ( { data} ) => {
     print(productCategory,data.id)
+  },
+  "/productSearch/:id": ({data}) => {
+    print(renderSearch, data.id)
+    console.log(data)
   }
 });
 

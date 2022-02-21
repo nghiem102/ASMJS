@@ -1,3 +1,4 @@
+import { getSearch } from "../api/products"
 import { reRender } from "../utils/reRender"
 import boxAccount from "./boxAccount"
 
@@ -67,6 +68,13 @@ const Header = {
 
     afterRender() {
         boxAccount.afterRender()
+
+        document.querySelector(".search-box").addEventListener('submit', async (e) => {
+            e.preventDefault()
+            const searchValue = document.querySelector('.search-form').value
+            console.log(searchValue)
+            window.location.href = "/#/productSearch/"+`${searchValue}`
+        }) 
     }
 }
 export default Header

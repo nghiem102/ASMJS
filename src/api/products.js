@@ -16,3 +16,8 @@ export const add = (product) => {
     const url = `/products`;
     return instance.post(url, product);
 }
+
+export const getSearch = (inputSearch) => {
+    const url = `/products?q=${inputSearch}`
+    return instance.get(url)
+}
