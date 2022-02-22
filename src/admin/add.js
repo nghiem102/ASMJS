@@ -24,7 +24,7 @@ const addProduct = {
                 `)}
                 </select><br/>
                 <textarea name="" id="desc-post" class="border border-black" cols="30" rows="10"></textarea><br />
-                <button class="btnAdd">Tạo bài viết</button>
+                <button class="btnAdd">Thêm mới</button>
             </form>
             </div>
         `
