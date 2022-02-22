@@ -1,0 +1,57 @@
+#formAddPost {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+*{
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    border: solid 1px rgb(226, 226, 226);
+    border-radius: 10px;
+    background-color: #f6f8fa;
+    padding: 30px;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: solid 1px rgb(226, 226, 226);
+}
+
+select {
+    margin-top: 15px;
+    padding: 10px;
+    border: solid 1px rgb(226, 226, 226);
+}
+
+textarea {
+    margin-top: 15px;
+    border: solid 1px rgb(226, 226, 226);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btnAdd {
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: #2ea44f;
+    color: #f6f8fa;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.btnAdd:hover {
+    background-color: #268541;
+}

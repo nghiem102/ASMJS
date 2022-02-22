@@ -9,7 +9,7 @@ const Header = {
         <div class="grid wide">
             <div class="header__logo">
                 <a href="/" class="header__logo-link">
-                    <img class="header__logo-img" src="./assets/css/img/logo.jpg" alt="">
+                    <img class="header__logo-img" src="http://res.cloudinary.com/dpv7d14ll/image/upload/v1645501078/unj9jftk69xdf29agv9p.jpg" alt="">
                 </a>
             </div>
             <nav class="header__nav">

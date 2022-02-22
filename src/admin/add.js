@@ -3,12 +3,15 @@ import { add } from "../api/products";
 import $ from "jquery";
 import validate from "jquery-validation"
 import { getAll } from "../api/categorys";
+import sidebarDashboard from "./sidebarDashboard";
 
 const addProduct = {
     async render(){
         const {data} = await getAll();
         // console.log(cate);
         return /*html*/`
+            ${sidebarDashboard.render()}
+            <div class="main">
             <form id="formAddPost">
                 <input type="text" id="title-post" class="border border-black" placeholder="Title" name="title-post" /><br />
                 <input type="file" id="img-post" class="border border-black" placeholder="Title" /><br />
@@ -19,10 +22,11 @@ const addProduct = {
                     <option value="${item.id}">${item.name}</option>
                 
                 `)}
-                </select>
+                </select><br/>
                 <textarea name="" id="desc-post" class="border border-black" cols="30" rows="10"></textarea><br />
-                <button>Tạo bài viết</button>
+                <button class="btnAdd">Tạo bài viết</button>
             </form>
+            </div>
         `
     },
     afterRender(){
@@ -83,6 +87,7 @@ const addProduct = {
                             "42"
                           ]
                     });
+                    document.location.href = "/dashboard"
                 }
                 addPost();
             }

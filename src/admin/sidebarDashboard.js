@@ -3,7 +3,7 @@ const sidebarDashboard = {
         return /* html */ `
         <div class="sidebar">
             <div class="sidebar-logo">
-                <a href="/"><img src="./assets/css/img/logo.jpg" alt="Comapny logo"></a>
+                <a href="/"><img src="http://res.cloudinary.com/dpv7d14ll/image/upload/v1645501078/unj9jftk69xdf29agv9p.jpg" alt="Comapny logo"></a>
                 
                 <div class="sidebar-close" id="sidebar-close">
                     <i class='bx bx-left-arrow-alt'></i>
@@ -11,7 +11,7 @@ const sidebarDashboard = {
             </div>
             <div class="sidebar-user">
                 <div class="sidebar-user-info">
-                    <img src="./assets/css/img/user-img.jpg" alt="User picture" class="profile-image">
+                    <img src="http://res.cloudinary.com/dpv7d14ll/image/upload/v1645500265/y3g2soncruj2vkllsaew.jpg" alt="User picture" class="profile-image">
                     <div class="sidebar-user-name">
                         Dinh Nghiem
                     </div>
@@ -29,7 +29,7 @@ const sidebarDashboard = {
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/#/admin/add">
                         <i class='bx bx-shopping-bag'></i>
                         <span>thêm sản phẩm</span>
                     </a>

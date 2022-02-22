@@ -25,7 +25,7 @@ const productCategory = {
                 <!-- end category -->
                 <div class="content__main col l-9 m-12 c-12">
                     <div class="conten-product row">
-                        <h2 class="conten__product-title l-12 m-12 c-12">Tất cả sản phẩm</h2>
+                        <h2 class="conten__product-title l-12 m-12 c-12">${data.name}</h2>
 
                         ${data.products.map(item => /* html */ `
                             <a href="/#/detail/${item.id}" class="content__product-item l-4 col m-6 c-12">
