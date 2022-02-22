@@ -6,6 +6,7 @@ import sidebarProduct from "../components/sidebarProduct"
 const productCategory = {
     async render(id) {
         const { data } = await getByCategory(id)
+        console.log(data)
         return /* html */ `
             ${Header.render()}
             
@@ -26,15 +27,19 @@ const productCategory = {
                     <div class="conten-product row">
                         <h2 class="conten__product-title l-12 m-12 c-12">Tất cả sản phẩm</h2>
 
-                        <a href="/#/detail/${data.products[0].id}" class="content__product-item l-4 col m-6 c-12">
-                            <div class="product-item-img">
-                                <img src="${data.products[0].img}" alt="">
-                            </div>
-                            <div class="product-item-text">
-                                <p class="product-item-name">${data.products[0].name}</p>
-                                <p class="product-item-price">${data.products[0].price}</p>
-                            </div>
-                        </a>
+                        ${data.products.map(item => /* html */ `
+                            <a href="/#/detail/${item.id}" class="content__product-item l-4 col m-6 c-12">
+                                <div class="product-item-img">
+                                    <img src="${item.img}" alt="">
+                                </div>
+                                <div class="product-item-text">
+                                    <p class="product-item-name">${item.name}</p>
+                                    <p class="product-item-price">${item.price}</p>
+                                </div>
+                            </a>
+                        `).join("")}
+
+                        
                         
                     </div>
                 </div>
@@ -44,6 +49,10 @@ const productCategory = {
 
             ${Footer.render()}
         `
+    },
+
+    afterRender() {
+        Header.afterRender()
     }
 }
 export default productCategory

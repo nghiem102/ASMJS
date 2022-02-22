@@ -1,6 +1,7 @@
 import Navigo from "navigo";
 import toastr from "toastr";
 import "toastr/build/toastr.min.css"
+import addProduct from "./admin/add";
 import Category from "./admin/category";
 import Dashboard from "./admin/Dashboard";
 import Cart from "./pages/cart";
@@ -53,6 +54,9 @@ router.on({
   },
   "/signup": () => {
     print(Signup)
+  },
+  "/admin/add": () => {
+    print(addProduct)
   },
   "/detail/:id": ( {data} ) => {
     print(Detail, data.id)

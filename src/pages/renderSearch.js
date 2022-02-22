@@ -31,6 +31,10 @@ const renderSearch = {
             </div>
         ${Footer.render()}
             `
+    },
+
+    afterRender() {
+        Header.afterRender()
     }
 }
 
