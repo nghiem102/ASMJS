@@ -78,7 +78,7 @@ const addProduct = {
                         img: imgLink ? imgLink : "",
                         price: document.querySelector("#price").value,
                         desc: document.querySelector('#desc-post').value,
-                        categoryProductId: document.querySelector("#cate").value,
+                        categoryProductId: Number( document.querySelector("#cate").value),
                         size: [
                             "38",
                             "39",
